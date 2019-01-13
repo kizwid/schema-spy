@@ -34,7 +34,7 @@ public class SchemaSpyApplicationTests {
 		config.setDb("testDb");
 		config.setHighQuality(true);
 		config.setOutputDir("target/_diagrams");
-		config.setGraphvizDir("target/graphviz-2.38/bin"); //unpacked by dependency plugin
+		config.setGraphvizDir("/usr/local/bin"); //unpacked by dependency plugin
 
 		sa.analyze(config);
 
