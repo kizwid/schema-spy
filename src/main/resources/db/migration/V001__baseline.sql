@@ -41,8 +41,9 @@ create sequence AGREEMENT_SEQ;
 alter table AGREEMENT add constraint fk_counterparty_id foreign key (counterparty_id) references COUNTERPARTY;
 
 create table RELATED_AGREEMENT (
-    related_agreement_id bigint not null
+    id bigint not null
     ,agreement_id bigint not null
+    ,related_agreement_id bigint not null
     ,relationship_type varchar(50) not null
     ,region varchar(50) not null
     ,primary key (related_agreement_id)

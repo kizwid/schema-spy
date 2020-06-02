@@ -43,6 +43,13 @@
 			<artifactId>schemaspy</artifactId>
 			<version>5.0.0</version>
 		</dependency>
+<!--
+		<dependency>
+			<groupId>com.github.schemaspy</groupId>
+			<artifactId>schemaspy</artifactId>
+			<version>v6.1.0</version>
+		</dependency>
+-->
 
 		<dependency>
 			<groupId>org.hsqldb</groupId>
@@ -103,5 +110,13 @@
 		</plugins>
 	</build>
 
+<!--
+	<repositories>
+		<repository>
+			<id>jitpack.io</id>
+			<url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+-->
 
 </project>
